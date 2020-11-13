@@ -10,18 +10,18 @@ import (
 	"github.com/google/uuid"
 	"github.com/urfave/cli"
 
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/log"
-	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/RichardKnop/machinery/v2"
+	"github.com/thaitanloi365/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v1/log"
+	"github.com/thaitanloi365/machinery/v1/tasks"
+	"github.com/thaitanloi365/machinery/v2"
 
-	exampletasks "github.com/RichardKnop/machinery/example/tasks"
-	tracers "github.com/RichardKnop/machinery/example/tracers"
-	amqpbackend "github.com/RichardKnop/machinery/v1/backends/amqp"
-	amqpbroker "github.com/RichardKnop/machinery/v1/brokers/amqp"
-	eagerlock "github.com/RichardKnop/machinery/v1/locks/eager"
 	opentracing "github.com/opentracing/opentracing-go"
 	opentracing_log "github.com/opentracing/opentracing-go/log"
+	exampletasks "github.com/thaitanloi365/machinery/example/tasks"
+	tracers "github.com/thaitanloi365/machinery/example/tracers"
+	amqpbackend "github.com/thaitanloi365/machinery/v1/backends/amqp"
+	amqpbroker "github.com/thaitanloi365/machinery/v1/brokers/amqp"
+	eagerlock "github.com/thaitanloi365/machinery/v1/locks/eager"
 )
 
 var (

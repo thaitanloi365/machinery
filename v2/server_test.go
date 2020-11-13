@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/RichardKnop/machinery/v2"
-	"github.com/RichardKnop/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v2"
 
-	backend "github.com/RichardKnop/machinery/v1/backends/eager"
-	broker "github.com/RichardKnop/machinery/v1/brokers/eager"
-	lock "github.com/RichardKnop/machinery/v1/locks/eager"
+	backend "github.com/thaitanloi365/machinery/v1/backends/eager"
+	broker "github.com/thaitanloi365/machinery/v1/brokers/eager"
+	lock "github.com/thaitanloi365/machinery/v1/locks/eager"
 )
 
 func TestRegisterTasks(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/RichardKnop/machinery/v1/backends/iface"
-	"github.com/RichardKnop/machinery/v1/backends/mongo"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/stretchr/testify/assert"
+	"github.com/thaitanloi365/machinery/v1/backends/iface"
+	"github.com/thaitanloi365/machinery/v1/backends/mongo"
+	"github.com/thaitanloi365/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v1/tasks"
 )
 
 var (

@@ -2,9 +2,9 @@ package redis
 
 import (
 	"errors"
-	"github.com/RichardKnop/machinery/v1/config"
 	"github.com/RichardKnop/redsync"
 	"github.com/go-redis/redis"
+	"github.com/thaitanloi365/machinery/v1/config"
 	"strconv"
 	"strings"
 	"sync"

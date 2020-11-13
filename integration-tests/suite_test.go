@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RichardKnop/machinery/v1"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/stretchr/testify/assert"
+	"github.com/thaitanloi365/machinery/v1"
+	"github.com/thaitanloi365/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v1/tasks"
 )
 
 type ascendingInt64s []int64

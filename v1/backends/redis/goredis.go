@@ -10,12 +10,12 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"github.com/RichardKnop/machinery/v1/backends/iface"
-	"github.com/RichardKnop/machinery/v1/common"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/log"
-	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/RichardKnop/redsync"
+	"github.com/thaitanloi365/machinery/v1/backends/iface"
+	"github.com/thaitanloi365/machinery/v1/common"
+	"github.com/thaitanloi365/machinery/v1/config"
+	"github.com/thaitanloi365/machinery/v1/log"
+	"github.com/thaitanloi365/machinery/v1/tasks"
 )
 
 // BackendGR represents a Redis result backend
